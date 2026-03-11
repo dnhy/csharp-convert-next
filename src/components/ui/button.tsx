@@ -13,7 +13,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const base =
       "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
-    const variants: Record<ButtonProps["variant"], string> = {
+    const variants: Record<NonNullable<ButtonProps["variant"]>, string> = {
       default:
         "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600",
       outline:

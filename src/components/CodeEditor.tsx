@@ -8,7 +8,6 @@ import { csharp } from "@replit/codemirror-lang-csharp";
 import { EditorView } from "@codemirror/view";
 import { StateEffect, StateField } from "@codemirror/state";
 import { Decoration, DecorationSet } from "@codemirror/view";
-import { cn } from "@/lib/utils";
 
 export interface CodeEditorProps {
   value: string;
@@ -57,7 +56,6 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   const editorRef = useRef<{ view?: EditorView } | null>(null);
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     if (highlightLine === null || highlightLine === undefined) {
@@ -110,11 +108,6 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
     };
   }, [highlightLine]);
 
-  // 记录是否已在浏览器端挂载（用于安全使用 Portal）
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   // 全屏时禁止 body 滚动
   useEffect(() => {
     if (isFullscreen) {
@@ -130,7 +123,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   const fullscreenEditorHeight = "calc(100vh - 48px)"; // 48px 预留顶部工具栏高度
 
   // 全屏渲染：通过 Portal 直接挂到 body，完全占据浏览器窗口
-  if (isFullscreen && mounted) {
+  if (isFullscreen) {
     return createPortal(
       <div className="fixed inset-0 z-[1200] flex flex-col bg-white">
         <div className="flex items-center justify-end px-3 py-2 border-b border-slate-200 bg-white shadow-sm">
