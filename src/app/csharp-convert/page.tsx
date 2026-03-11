@@ -2,6 +2,9 @@
 
 import React, { useCallback, useState } from "react";
 import { CodeEditor } from "@/components/CodeEditor";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import {
   convertCSharpScript,
   reverseConvertCSharpFile,
@@ -136,87 +139,103 @@ export default function CSharpConvertPage() {
   }, [connectionString, dbType, convertedCode, showMessage]);
 
   return (
-    <div className="page-container">
-      <h1 className="page-title">C# 脚本转换器</h1>
-      <div className="editor-row">
-        <div className="editor-col">
-          <div className="editor-label">script内容</div>
-          <CodeEditor value={sourceCode} onChange={setSourceCode} />
-        </div>
-        <div className="editor-col">
-          <div className="editor-label">debug代码</div>
-          <CodeEditor
-            value={convertedCode}
-            onChange={setConvertedCode}
-            highlightLine={highlightLine}
-          />
-        </div>
-      </div>
-      <div className="action-row">
-        <button
-          type="button"
-          className="primary-button"
-          onClick={handleConvert}
-          disabled={converting}
-        >
-          {converting ? "转换中..." : "转换"}
-        </button>
-        <button type="button" className="outline-button" onClick={handleClear}>
-          清空
-        </button>
-        <button
-          type="button"
-          className="outline-button"
-          onClick={handleReverseConvert}
-        >
-          反向转换
-        </button>
-        <button
-          type="button"
-          className="outline-button"
-          onClick={handleCopy}
-        >
-          复制到剪贴板
-        </button>
-      </div>
-      {message && (
-        <div className={`message message-${message.type}`}>{message.text}</div>
-      )}
-      <div className="data-source-config">
-        <div className="data-source-title">配置数据源</div>
-        <div className="data-source-row">
-          <div className="data-source-field">
-            <label className="data-source-label">连接字符串：</label>
-            <input
-              type="text"
-              className="data-source-input"
-              value={connectionString}
-              onChange={(e) => setConnectionString(e.target.value)}
-              placeholder="请输入连接字符串"
-            />
+    <div className="min-h-screen bg-slate-100 py-4 px-2">
+      <div className="w-full rounded-none border-b border-slate-200 bg-white shadow-sm p-4 md:p-6 space-y-6">
+        <header className="space-y-1">
+          <h1 className="text-2xl font-semibold text-slate-900">
+            C# 脚本转换器
+          </h1>
+          <p className="text-sm text-slate-500">
+            在左侧编辑脚本代码，右侧查看生成的可调试 C# 文件，可在底部配置数据源。
+          </p>
+        </header>
+
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="flex flex-col min-w-0 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-slate-700">
+                Script Code
+              </span>
+            </div>
+            <div className="border border-slate-200 rounded-md overflow-hidden bg-slate-50">
+              <CodeEditor value={sourceCode} onChange={setSourceCode} />
+            </div>
           </div>
-          <div className="data-source-field">
-            <label className="data-source-label">数据库类型：</label>
-            <select
-              className="data-source-select"
-              value={dbType}
-              onChange={(e) => setDbType(e.target.value)}
-            >
-              <option value="PostgreSQL">PostgreSQL</option>
-              <option value="SqlServer">SqlServer</option>
-              <option value="MySql">MySql</option>
-              <option value="Oracle">Oracle</option>
-              <option value="Sqlite">Sqlite</option>
-            </select>
+
+          <div className="flex flex-col min-w-0 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-medium text-slate-700">
+                Debug Code
+              </span>
+            </div>
+            <div className="border border-slate-200 rounded-md overflow-hidden bg-slate-50">
+              <CodeEditor
+                value={convertedCode}
+                onChange={setConvertedCode}
+                highlightLine={highlightLine}
+              />
+            </div>
           </div>
-          <button
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <Button
             type="button"
-            className="primary-button"
-            onClick={handleApplyDataSource}
+            onClick={handleConvert}
+            disabled={converting}
           >
-            应用
-          </button>
+            {converting ? "转换中..." : "转换"}
+          </Button>
+          <Button type="button" variant="outline" onClick={handleClear}>
+            清空
+          </Button>
+          <Button type="button" variant="outline" onClick={handleReverseConvert}>
+            反向转换
+          </Button>
+          <Button type="button" variant="outline" onClick={handleCopy}>
+            复制 Debug 代码到剪贴板
+          </Button>
         </div>
+
+        {message && (
+          <div className={`message message-${message.type}`}>{message.text}</div>
+        )}
+
+        <section className="mt-2 rounded-lg border border-slate-200 bg-slate-50 p-4 space-y-4">
+          <h2 className="text-sm font-semibold text-slate-800">
+            配置数据源
+          </h2>
+          <div className="flex flex-col gap-4 md:flex-row md:items-end">
+            <div className="flex-1 space-y-1">
+              <Label className="text-xs text-slate-600">连接字符串</Label>
+              <Input
+                type="text"
+                value={connectionString}
+                onChange={(e) => setConnectionString(e.target.value)}
+                placeholder="请输入连接字符串"
+              />
+            </div>
+            <div className="w-full md:w-52 space-y-1">
+              <Label className="text-xs text-slate-600">数据库类型</Label>
+              <select
+                className="h-9 w-full rounded-md border border-slate-300 bg-white px-3 py-1 text-sm shadow-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500"
+                value={dbType}
+                onChange={(e) => setDbType(e.target.value)}
+              >
+                <option value="PostgreSQL">PostgreSQL</option>
+                <option value="SqlServer">SqlServer</option>
+                <option value="MySql">MySql</option>
+                <option value="Oracle">Oracle</option>
+                <option value="Sqlite">Sqlite</option>
+              </select>
+            </div>
+            <div className="flex-shrink-0">
+              <Button type="button" onClick={handleApplyDataSource}>
+                应用
+              </Button>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

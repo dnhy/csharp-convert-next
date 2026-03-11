@@ -1,11 +1,14 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
+import { Icon } from "@iconify/react";
 import CodeMirror from "@uiw/react-codemirror";
 import { csharp } from "@replit/codemirror-lang-csharp";
 import { EditorView } from "@codemirror/view";
 import { StateEffect, StateField } from "@codemirror/state";
 import { Decoration, DecorationSet } from "@codemirror/view";
+import { cn } from "@/lib/utils";
 
 export interface CodeEditorProps {
   value: string;
@@ -13,6 +16,7 @@ export interface CodeEditorProps {
   readOnly?: boolean;
   height?: string;
   highlightLine?: number | null;
+  showFullscreenToggle?: boolean;
 }
 
 // 创建高亮效果
@@ -52,6 +56,8 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
 }) => {
   const editorRef = useRef<{ view?: EditorView } | null>(null);
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     if (highlightLine === null || highlightLine === undefined) {
@@ -104,26 +110,99 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
     };
   }, [highlightLine]);
 
+  // 记录是否已在浏览器端挂载（用于安全使用 Portal）
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // 全屏时禁止 body 滚动
+  useEffect(() => {
+    if (isFullscreen) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isFullscreen]);
+
+  const normalEditorHeight = height;
+  const fullscreenEditorHeight = "calc(100vh - 48px)"; // 48px 预留顶部工具栏高度
+
+  // 全屏渲染：通过 Portal 直接挂到 body，完全占据浏览器窗口
+  if (isFullscreen && mounted) {
+    return createPortal(
+      <div className="fixed inset-0 z-[1200] flex flex-col bg-white">
+        <div className="flex items-center justify-end px-3 py-2 border-b border-slate-200 bg-white shadow-sm">
+          <button
+            type="button"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-500 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            onClick={() => setIsFullscreen(false)}
+          >
+            <Icon icon="mdi:fullscreen-exit" width={18} height={18} />
+          </button>
+        </div>
+        <div
+          className="flex-1 w-full min-w-0"
+          style={{ height: fullscreenEditorHeight }}
+        >
+          <CodeMirror
+            value={value}
+            height={fullscreenEditorHeight}
+            width="100%"
+            extensions={[csharp(), highlightField]}
+            onChange={(val) => {
+              if (!readOnly && onChange) {
+                onChange(val);
+              }
+            }}
+            ref={editorRef}
+            basicSetup={{
+              lineNumbers: true,
+              highlightActiveLine: true,
+            }}
+            editable={!readOnly}
+          />
+        </div>
+      </div>,
+      document.body,
+    );
+  }
+
+  // 普通非全屏模式
   return (
-    <div style={{ width: "100%", height, minWidth: 0 }}>
-      <CodeMirror
-        value={value}
-        height={height}
-        width="100%"
-        extensions={[csharp(), highlightField]}
-        onChange={(val) => {
-          if (!readOnly && onChange) {
-            onChange(val);
-          }
-        }}
-        ref={editorRef}
-        basicSetup={{
-          lineNumbers: true,
-          highlightActiveLine: true,
-        }}
-        editable={!readOnly}
-      />
+    <div className="relative w-full">
+      <div className="flex items-center justify-end mb-1">
+        <button
+          type="button"
+          className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-500 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+          onClick={() => setIsFullscreen(true)}
+        >
+          <Icon icon="mdi:fullscreen" width={18} height={18} />
+        </button>
+      </div>
+      <div
+        className="w-full min-w-0 flex-1"
+        style={{ height: normalEditorHeight }}
+      >
+        <CodeMirror
+          value={value}
+          height={normalEditorHeight}
+          width="100%"
+          extensions={[csharp(), highlightField]}
+          onChange={(val) => {
+            if (!readOnly && onChange) {
+              onChange(val);
+            }
+          }}
+          ref={editorRef}
+          basicSetup={{
+            lineNumbers: true,
+            highlightActiveLine: true,
+          }}
+          editable={!readOnly}
+        />
+      </div>
     </div>
   );
 };
-
