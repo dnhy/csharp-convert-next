@@ -525,6 +525,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
             Global.Parameters = new List<SugarParameter>();
             
 ${parametersSection ? `${parametersSection}\n` : ''}            #region script code remove res
+            //var id = Global.Parameters.FirstOrDefault(x => x.ParameterName == "Id")?.Value?.ToString();
+            
 ${indentedScript}
 
             #endregion
@@ -735,6 +737,7 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
   const programClassRegex = /internal\s+class\s+Program\s*\{/;
   const programClassMatch = namespaceContent.match(programClassRegex);
 
+  // 提取 Program 类中的 public static 方法（例如 GetParamValue），还原为脚本中的独立方法
   if (programClassMatch && programClassMatch.index !== undefined) {
     const programStart = programClassMatch.index;
     let braceCount = 0;
@@ -742,6 +745,7 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
     let stringChar = '';
     let i = programStart;
 
+    // 先找到整个 Program 类的内容区间
     while (i < namespaceContent.length) {
       const char = namespaceContent[i];
       const prevChar = i > 0 ? namespaceContent[i - 1] : '';
@@ -761,9 +765,82 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
         } else if (char === '}') {
           braceCount--;
           if (braceCount === 0) {
-            // Program 类的内容已经找到，不需要提取其中的方法
-            // 因为通常脚本代码中不会有需要提取的 public static 方法
-            // 如果需要提取方法，可以在后续版本中添加
+            const programContent = namespaceContent.substring(programStart, i + 1);
+
+            // 在 Program 类内部查找 public static 方法（排除 async Task Main）
+            // 支持返回类型 + 方法名 + 可选泛型参数，例如：
+            // public static T GetParamValue<T>(string paramName)
+            const staticMethodRegex =
+              /public\s+static\s+(?!async\s+Task\s+Main)[\w<>\[\]?]+\s+\w+(?:<[^>]+>)?\s*\(/g;
+
+            let methodMatch = staticMethodRegex.exec(programContent);
+
+            while (methodMatch) {
+              const methodStart = methodMatch.index;
+              let j = methodStart;
+
+              // 找到方法体起始的 '{'
+              while (j < programContent.length && programContent[j] !== '{') {
+                j++;
+              }
+
+              if (j >= programContent.length) {
+                break;
+              }
+
+              // 从 '{' 开始匹配到对应的 '}'
+              let methodBraceCount = 0;
+              inString = false;
+              stringChar = '';
+              let k = j;
+
+              while (k < programContent.length) {
+                const c = programContent[k];
+                const p = k > 0 ? programContent[k - 1] : '';
+
+                if ((c === '"' || c === "'") && p !== '\\') {
+                  if (!inString) {
+                    inString = true;
+                    stringChar = c;
+                  } else if (c === stringChar) {
+                    inString = false;
+                  }
+                }
+
+                if (!inString) {
+                  if (c === '{') {
+                    methodBraceCount++;
+                  } else if (c === '}') {
+                    methodBraceCount--;
+                    if (methodBraceCount === 0) {
+                      const methodCode = programContent.substring(methodStart, k + 1);
+
+                      // 去除 Program 类内部的缩进（8 个空格），还原为顶级方法格式
+                      const unindentedMethod = methodCode
+                        .split('\n')
+                        .map((line) => {
+                          if (line.trim()) {
+                            return line.replace(/^ {8}/, '');
+                          }
+                          return line;
+                        })
+                        .join('\n')
+                        .trim();
+
+                      if (unindentedMethod) {
+                        result.push(unindentedMethod);
+                      }
+                      break;
+                    }
+                  }
+                }
+
+                k++;
+              }
+
+              methodMatch = staticMethodRegex.exec(programContent);
+            }
+
             break;
           }
         }
