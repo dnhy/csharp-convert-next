@@ -18,10 +18,11 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   height = "600px",
 }) => {
   return (
-    <div style={{ width: "100%", height }}>
+    <div style={{ width: "100%", height, minWidth: 0 }}>
       <CodeMirror
         value={value}
         height={height}
+        width="100%"
         extensions={[csharp()]}
         onChange={(val) => {
           if (!readOnly && onChange) {
