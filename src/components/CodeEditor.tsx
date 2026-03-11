@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Controlled as ControlledCodeMirror } from "@uiw/react-codemirror";
+import CodeMirror from "@uiw/react-codemirror";
 import { csharp } from "@replit/codemirror-lang-csharp";
 
 export interface CodeEditorProps {
@@ -19,7 +19,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
 }) => {
   return (
     <div style={{ width: "100%", height }}>
-      <ControlledCodeMirror
+      <CodeMirror
         value={value}
         height={height}
         extensions={[csharp()]}
