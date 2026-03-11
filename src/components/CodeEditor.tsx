@@ -51,40 +51,57 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   highlightLine,
 }) => {
   const editorRef = useRef<{ view?: EditorView } | null>(null);
+  const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    if (highlightLine !== null && highlightLine !== undefined) {
-      // 延迟执行，确保编辑器已渲染
-      const timeout = setTimeout(() => {
-        if (editorRef.current) {
-          const editor = editorRef.current;
-          const view = editor.view;
-
-          if (view) {
-            try {
-              const line = view.state.doc.line(highlightLine);
-
-              // 滚动到该行
-              view.dispatch({
-                effects: EditorView.scrollIntoView(line.from, { y: "center" }),
-              });
-
-              // 添加高亮（不在这里移除，由 CSS 动画负责淡出）
-              view.dispatch({
-                effects: highlightEffect.of(highlightLine),
-              });
-            } catch (error) {
-              // 行号可能超出范围，忽略错误
-              console.warn("Failed to highlight line:", error);
-            }
-          }
-        }
-      }, 100);
-
-      return () => {
-        clearTimeout(timeout);
-      };
+    if (highlightLine === null || highlightLine === undefined) {
+      return;
     }
+
+    // 延迟执行，确保编辑器已渲染
+    const timeout = setTimeout(() => {
+      if (!editorRef.current) return;
+      const editor = editorRef.current;
+      const view = editor.view;
+      if (!view) return;
+
+      try {
+        const line = view.state.doc.line(highlightLine);
+
+        // 滚动到该行
+        view.dispatch({
+          effects: EditorView.scrollIntoView(line.from, { y: "center" }),
+        });
+
+        // 添加高亮
+        view.dispatch({
+          effects: highlightEffect.of(highlightLine),
+        });
+
+        // 3 秒后移除高亮，防止以后滚动再次触发闪烁
+        if (clearTimeoutRef.current) {
+          clearTimeout(clearTimeoutRef.current);
+        }
+        clearTimeoutRef.current = setTimeout(() => {
+          try {
+            view.dispatch({
+              effects: highlightEffect.of(null),
+            });
+          } catch {
+            // 视图可能已经被销毁，忽略
+          }
+        }, 3000);
+      } catch (error) {
+        console.warn("Failed to highlight line:", error);
+      }
+    }, 100);
+
+    return () => {
+      clearTimeout(timeout);
+      if (clearTimeoutRef.current) {
+        clearTimeout(clearTimeoutRef.current);
+      }
+    };
   }, [highlightLine]);
 
   return (

@@ -241,7 +241,10 @@ a {
   }
 }
 
-/* CodeMirror 高亮行淡出动画 */
+/* CodeMirror 高亮行样式 + 淡出动画
+   说明：
+   - 高亮类在编辑器中会在 3 秒后被代码移除，因此动画只会执行一次，不会因为滚动反复触发
+*/
 .cm-highlight-line {
   background-color: rgba(255, 235, 59, 0.4);
   animation: cmLineHighlightFade 3s ease-out forwards;
