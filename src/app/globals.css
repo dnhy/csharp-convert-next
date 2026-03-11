@@ -102,11 +102,19 @@ a {
 }
 
 .message {
-  margin-top: 16px;
-  text-align: center;
-  padding: 8px 12px;
-  border-radius: 4px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 12px 20px;
+  border-radius: 8px;
   font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: slideInRight 0.3s ease-out, fadeOut 0.3s ease-in 2.7s;
+  animation-fill-mode: forwards;
+  min-width: 200px;
+  max-width: 400px;
+  word-wrap: break-word;
 }
 
 .message-success {
@@ -122,5 +130,129 @@ a {
 .message-warning {
   background-color: #fffbe6;
   color: #d48806;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .message {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.data-source-config {
+  margin-top: 32px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.data-source-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--foreground);
+}
+
+.data-source-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.data-source-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 200px;
+}
+
+.data-source-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.data-source-input {
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: var(--foreground);
+  transition: border-color 0.2s;
+}
+
+.data-source-input:focus {
+  outline: none;
+  border-color: #165dff;
+}
+
+.data-source-select {
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: var(--foreground);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.data-source-select:focus {
+  outline: none;
+  border-color: #165dff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .data-source-config {
+    background-color: #1a1a1a;
+    border-color: #333;
+  }
+
+  .data-source-input,
+  .data-source-select {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: var(--foreground);
+  }
+}
+
+/* CodeMirror 高亮行淡出动画 */
+.cm-highlight-line {
+  background-color: rgba(255, 235, 59, 0.4);
+  animation: cmLineHighlightFade 3s ease-out forwards;
+}
+
+@keyframes cmLineHighlightFade {
+  0% {
+    background-color: rgba(255, 235, 59, 0.4);
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 

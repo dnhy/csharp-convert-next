@@ -61,17 +61,66 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
 
   let remainingCode = sourceCode;
 
-  // 提取类定义（public class ... { ... }）
+  // 提取类定义（public class ... { ... }），包括类前面的特性
   const classRegex = /public\s+class\s+\w+\s*\{/g;
   const classes: string[] = [];
   let classMatch = classRegex.exec(sourceCode);
 
   while (classMatch !== null) {
-    const startIndex = classMatch.index;
-    let braceCount = 0;
+    // 从 class 关键字的位置开始，向前查找特性
+    let classStartIndex = classMatch.index;
+    
+    // 向前查找，找到所有在类定义之前的特性（attributes）
+    // 特性格式：[AttributeName(...)] 或 [AttributeName]
+    let i = classStartIndex - 1;
+    let bracketDepth = 0;
     let inString = false;
     let stringChar = '';
-    let i = startIndex;
+    let foundAttribute = false;
+    
+    // 跳过空白字符
+    while (i >= 0 && /\s/.test(sourceCode[i])) {
+      i--;
+    }
+    
+    // 向前查找特性
+    while (i >= 0) {
+      const char = sourceCode[i];
+      const prevChar = i > 0 ? sourceCode[i - 1] : '';
+      
+      if ((char === '"' || char === "'") && prevChar !== '\\') {
+        if (!inString) {
+          inString = true;
+          stringChar = char;
+        } else if (char === stringChar) {
+          inString = false;
+        }
+      }
+      
+      if (!inString) {
+        if (char === ']') {
+          bracketDepth++;
+          foundAttribute = true;
+        } else if (char === '[') {
+          bracketDepth--;
+          if (bracketDepth === 0 && foundAttribute) {
+            // 找到了特性的开始
+            classStartIndex = i;
+            break;
+          }
+        } else if (bracketDepth === 0 && !/\s/.test(char)) {
+          // 如果没有找到特性，或者已经跳出了特性范围
+          break;
+        }
+      }
+      i--;
+    }
+    
+    // 现在提取完整的类定义（包括特性）
+    let braceCount = 0;
+    inString = false;
+    stringChar = '';
+    i = classStartIndex;
 
     while (i < sourceCode.length) {
       const char = sourceCode[i];
@@ -92,9 +141,14 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
         } else if (char === '}') {
           braceCount--;
           if (braceCount === 0) {
-            const classCode = sourceCode.substring(startIndex, i + 1);
+            const classCode = sourceCode.substring(classStartIndex, i + 1);
             classes.push(classCode.trim());
-            remainingCode = remainingCode.replace(classCode, '');
+            // 使用正则替换，确保完全移除类代码（包括所有空白字符）
+            const classCodeRegex = new RegExp(
+              classCode.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+              'g'
+            );
+            remainingCode = remainingCode.replace(classCodeRegex, '');
             break;
           }
         }
@@ -107,6 +161,7 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
   result.classes = classes;
 
   // 提取函数定义
+  // 只提取有参数列表 () 的函数，排除属性（属性只有 { get; set; }）
   const accessModifierRegex =
     /(?:public|private|protected|internal)\s+(?:static\s+)?(?:async\s+)?/g;
   const functions: string[] = [];
@@ -123,6 +178,46 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
     let foundMethodName = false;
     let paramListEnd = -1;
     let methodBodyStart = -1;
+
+    // 跳过特性（attributes）
+    while (i < sourceCode.length && sourceCode[i] === '[') {
+      let attrBracketDepth = 0;
+      let attrInString = false;
+      let attrStringChar = '';
+      let j = i;
+      
+      while (j < sourceCode.length) {
+        const c = sourceCode[j];
+        const p = j > 0 ? sourceCode[j - 1] : '';
+        
+        if ((c === '"' || c === "'") && p !== '\\') {
+          if (!attrInString) {
+            attrInString = true;
+            attrStringChar = c;
+          } else if (c === attrStringChar) {
+            attrInString = false;
+          }
+        }
+        
+        if (!attrInString) {
+          if (c === '[') attrBracketDepth++;
+          else if (c === ']') {
+            attrBracketDepth--;
+            if (attrBracketDepth === 0) {
+              j++;
+              // 跳过空白
+              while (j < sourceCode.length && /\s/.test(sourceCode[j])) {
+                j++;
+              }
+              i = j;
+              break;
+            }
+          }
+        }
+        j++;
+      }
+      if (j >= sourceCode.length) break;
+    }
 
     while (i < sourceCode.length) {
       const char = sourceCode[i];
@@ -206,13 +301,30 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
           if (methodNameMatch) {
             foundMethodName = true;
             i += methodNameMatch[1].length - 1;
+          } else {
+            // 如果没有找到方法名和 (，可能是属性，跳过
+            // 检查是否是属性：public Type name { get; set; } 或 public Type? name { get; set; }
+            // 属性模式：类型名 + 空格 + 属性名 + 空格 + {
+            const propertyMatch = remaining.match(/^[\w<>?[\],\s]+\s+\w+\s*\{/);
+            if (propertyMatch) {
+              // 这是属性，不是函数，跳过这个匹配
+              break;
+            }
+            // 也检查是否是字段：public Type name;（没有 { get; set; }）
+            const fieldMatch = remaining.match(/^[\w<>?[\],\s]+\s+\w+\s*;/);
+            if (fieldMatch) {
+              // 这是字段，不是函数，跳过
+              break;
+            }
           }
         }
       }
       i++;
     }
 
-    if (methodBodyStart > 0) {
+    // 只有找到参数列表 () 的才被认为是函数
+    // 属性只有 { get; set; }，没有 ()，所以会被排除
+    if (methodBodyStart > 0 && paramListEnd > 0 && foundMethodName) {
       let braceCount = 0;
       inString = false;
       i = methodBodyStart;
@@ -264,7 +376,11 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
 /**
  * 生成完整的 C# 文件
  */
-export function generateCSharpFile(parseResult: ParseResult): string {
+export function generateCSharpFile(
+  parseResult: ParseResult,
+  connectionString: string = "User ID=postgres;Password=yOW#tq0Hfm;Host=172.16.26.88;Port=5432;Database=V5MESPro;Pooling=true;Connection Lifetime=0;",
+  dbType: string = "PostgreSQL"
+): string {
   const usings = `using Azure;
 using Dm;
 using FreeRedis;
@@ -288,14 +404,44 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
   const namespaceStart = `namespace BIScriptTest
 {`;
 
+  // 格式化类定义，确保缩进正确（namespace 内部：4个空格，类内部：8个空格）
   const classesSection = parseResult.classes
-    .map((cls) => `    ${cls}`)
+    .map((cls) => {
+      const lines = cls.split('\n');
+      let braceDepth = 0;
+      const formattedLines: string[] = [];
+      
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          formattedLines.push('');
+          continue;
+        }
+        
+        // 先减少缩进（如果以 } 开头）
+        if (trimmed.startsWith('}')) {
+          braceDepth = Math.max(0, braceDepth - 1);
+        }
+        
+        // 计算缩进：namespace 内部（4） + 类内部（braceDepth * 4）
+        const indent = ' '.repeat(4 + braceDepth * 4);
+        formattedLines.push(indent + trimmed);
+        
+        // 增加缩进（如果以 { 结尾）
+        if (trimmed.endsWith('{')) {
+          braceDepth++;
+        }
+      }
+      
+      return formattedLines.join('\n');
+    })
     .join('\n\n');
 
   const parametersSection = parseResult.parameters
     .map((param) => `            Global.Parameters.Add(new SugarParameter("${param}", ""));`)
     .join('\n');
 
+  // 格式化函数，确保缩进正确（Program 类内部：8个空格）
   const functionsSection = parseResult.functions
     .map((func) => {
       let staticFunc = func;
@@ -311,22 +457,61 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
           'public static ',
         );
       }
-      return `        ${staticFunc}`;
+      
+      // 规范化函数缩进
+      const lines = staticFunc.split('\n');
+      let funcBraceDepth = 0;
+      const formattedLines: string[] = [];
+      
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          formattedLines.push('');
+          continue;
+        }
+        
+        // 先减少缩进（如果以 } 开头）
+        if (trimmed.startsWith('}')) {
+          funcBraceDepth = Math.max(0, funcBraceDepth - 1);
+        }
+        
+        // 计算缩进：namespace(4) + class(4) + 块深度(funcBraceDepth * 4)
+        const indent = ' '.repeat(8 + funcBraceDepth * 4);
+        formattedLines.push(indent + trimmed);
+        
+        // 增加缩进（如果以 { 结尾）
+        if (trimmed.endsWith('{')) {
+          funcBraceDepth++;
+        }
+      }
+      
+      return formattedLines.join('\n');
     })
     .join('\n\n');
 
+  // 格式化脚本代码，确保缩进正确（Main 方法内部：12个空格）
   const scriptLines = parseResult.scriptCode.split('\n');
+  let scriptBraceDepth = 0;
   const indentedScript = scriptLines
     .map((line) => {
-      if (line.trim()) {
-        const trimmed = line.trim();
-        const existingIndent = line.length - trimmed.length;
-        if (existingIndent === 0) {
-          return `            ${trimmed}`;
-        }
-        return line;
+      const trimmed = line.trim();
+      if (!trimmed) return '';
+      
+      // 先减少缩进（如果以 } 开头）
+      if (trimmed.startsWith('}')) {
+        scriptBraceDepth = Math.max(0, scriptBraceDepth - 1);
       }
-      return line;
+      
+      // 计算缩进：namespace(4) + class(4) + method(4) + 块深度(scriptBraceDepth * 4)
+      const indent = ' '.repeat(12 + scriptBraceDepth * 4);
+      const result = indent + trimmed;
+      
+      // 增加缩进（如果以 { 结尾）
+      if (trimmed.endsWith('{')) {
+        scriptBraceDepth++;
+      }
+      
+      return result;
     })
     .join('\n');
 
@@ -335,8 +520,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
         static async Task Main(string[] args)
         {
             var Global = new Global();
-            Global.SqlManager = new SqlSugarManager("User ID=postgres;Password=yOW#tq0Hfm;Host=172.16.26.88;Port=5432;Database=V5MESPro;Pooling=true;Connection Lifetime=0;", SqlSugar.DbType.PostgreSQL);
-            //Global.SqlManager = new SqlSugarManager("server=10.0.164.73;database=Kinetic;uid=vbi;pwd=xT(9Qe#upELz;connection timeout=1200;TrustServerCertificate=True", SqlSugar.DbType.SqlServer);
+            Global.SqlManager = new SqlSugarManager("${connectionString.replace(/"/g, '\\"')}", SqlSugar.DbType.${dbType});
 
             Global.Parameters = new List<SugarParameter>();
             
@@ -364,9 +548,13 @@ ${indentedScript}
 /**
  * 转换 C# 脚本为可运行的 .cs 文件
  */
-export function convertCSharpScript(sourceCode: string): string {
+export function convertCSharpScript(
+  sourceCode: string,
+  connectionString?: string,
+  dbType?: string
+): string {
   const parseResult = parseCSharpCode(sourceCode);
-  return generateCSharpFile(parseResult);
+  return generateCSharpFile(parseResult, connectionString, dbType);
 }
 
 /**
@@ -375,22 +563,115 @@ export function convertCSharpScript(sourceCode: string): string {
 export function reverseConvertCSharpFile(convertedCode: string): string {
   const result: string[] = [];
 
-  const namespaceMatch = convertedCode.match(/namespace\s+\w+\s*\{([\s\S]*)\}/);
-  if (!namespaceMatch) {
+  // 查找 namespace 关键字
+  const namespaceNameMatch = convertedCode.match(/namespace\s+([\w.]+)/);
+  if (!namespaceNameMatch || namespaceNameMatch.index === undefined) {
     throw new Error('无法找到 namespace 定义');
   }
 
-  const namespaceContent = namespaceMatch[1];
+  // 从 namespace 名称后开始查找 {
+  const namespaceNameEnd = namespaceNameMatch.index + namespaceNameMatch[0].length;
+  const remainingCode = convertedCode.substring(namespaceNameEnd);
+  const braceIndex = remainingCode.search(/\{/);
+  if (braceIndex === -1) {
+    throw new Error('无法找到 namespace 的开始大括号');
+  }
+
+  // namespaceStart 指向 { 之后的位置（namespace 内容的开始）
+  const namespaceStart = namespaceNameEnd + braceIndex + 1;
+  let braceCount = 1; // 从 namespace 的 { 开始计数
+  let inString = false;
+  let stringChar = '';
+  let i = namespaceStart;
+
+  // 计算大括号深度，找到 namespace 的结束位置
+  while (i < convertedCode.length && braceCount > 0) {
+    const char = convertedCode[i];
+    const prevChar = i > 0 ? convertedCode[i - 1] : '';
+
+    if ((char === '"' || char === "'") && prevChar !== '\\') {
+      if (!inString) {
+        inString = true;
+        stringChar = char;
+      } else if (char === stringChar) {
+        inString = false;
+      }
+    }
+
+    if (!inString) {
+      if (char === '{') {
+        braceCount++;
+      } else if (char === '}') {
+        braceCount--;
+      }
+    }
+    i++;
+  }
+
+  if (braceCount !== 0) {
+    throw new Error('无法找到 namespace 的结束位置');
+  }
+
+  // namespaceContent 是 namespace { ... } 内部的内容
+  const namespaceContent = convertedCode.substring(namespaceStart, i - 1);
 
   const classRegex = /public\s+class\s+\w+\s*\{/g;
   let classMatch = classRegex.exec(namespaceContent);
 
   while (classMatch !== null) {
-    const startIndex = classMatch.index;
-    let braceCount = 0;
+    // 从 class 关键字的位置开始，向前查找特性
+    let classStartIndex = classMatch.index;
+    
+    // 向前查找，找到所有在类定义之前的特性（attributes）
+    let i = classStartIndex - 1;
+    let bracketDepth = 0;
     let inString = false;
     let stringChar = '';
-    let i = startIndex;
+    let foundAttribute = false;
+    
+    // 跳过空白字符
+    while (i >= 0 && /\s/.test(namespaceContent[i])) {
+      i--;
+    }
+    
+    // 向前查找特性
+    while (i >= 0) {
+      const char = namespaceContent[i];
+      const prevChar = i > 0 ? namespaceContent[i - 1] : '';
+      
+      if ((char === '"' || char === "'") && prevChar !== '\\') {
+        if (!inString) {
+          inString = true;
+          stringChar = char;
+        } else if (char === stringChar) {
+          inString = false;
+        }
+      }
+      
+      if (!inString) {
+        if (char === ']') {
+          bracketDepth++;
+          foundAttribute = true;
+        } else if (char === '[') {
+          bracketDepth--;
+          if (bracketDepth === 0 && foundAttribute) {
+            // 找到了特性的开始
+            classStartIndex = i;
+            break;
+          }
+        } else if (bracketDepth === 0 && !/\s/.test(char)) {
+          // 如果没有找到特性，或者已经跳出了特性范围
+          break;
+        }
+      }
+      i--;
+    }
+    
+    // 现在提取完整的类定义（包括特性）
+    let braceCount = 0;
+    inString = false;
+    stringChar = '';
+    i = classStartIndex;
 
     while (i < namespaceContent.length) {
       const char = namespaceContent[i];
@@ -411,19 +692,36 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
         } else if (char === '}') {
           braceCount--;
           if (braceCount === 0) {
-            const classCode = namespaceContent.substring(startIndex, i + 1);
+            const classCode = namespaceContent.substring(classStartIndex, i + 1);
             if (!classCode.includes('class Program')) {
-              const unindentedClass = classCode
-                .split('\n')
-                .map((line) => {
-                  if (line.trim()) {
-                    return line.replace(/^ {4}/, '');
-                  }
-                  return line;
-                })
-                .join('\n')
-                .trim();
-              result.push(unindentedClass);
+              // 去除 namespace 级别的缩进（4个空格），规范化缩进
+              const lines = classCode.split('\n');
+              let braceDepth = 0;
+              const formattedLines: string[] = [];
+              
+              for (const line of lines) {
+                const trimmed = line.trim();
+                if (!trimmed) {
+                  formattedLines.push('');
+                  continue;
+                }
+                
+                // 先减少缩进（如果以 } 开头）
+                if (trimmed.startsWith('}')) {
+                  braceDepth = Math.max(0, braceDepth - 1);
+                }
+                
+                // 计算缩进：去除 namespace 的4个空格，保持类内部的相对缩进
+                const indent = ' '.repeat(braceDepth * 4);
+                formattedLines.push(indent + trimmed);
+                
+                // 增加缩进（如果以 { 结尾）
+                if (trimmed.endsWith('{')) {
+                  braceDepth++;
+                }
+              }
+              
+              result.push(formattedLines.join('\n').trim());
             }
             break;
           }
@@ -463,75 +761,9 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
         } else if (char === '}') {
           braceCount--;
           if (braceCount === 0) {
-            const programContent = namespaceContent.substring(programStart, i + 1);
-
-            const staticMethodRegex = /public\s+static\s+(?!async\s+Task\s+Main)/g;
-            let methodMatch = staticMethodRegex.exec(programContent);
-
-            while (methodMatch !== null) {
-              const methodStart = methodMatch.index;
-              let methodBraceCount = 0;
-              let methodInString = false;
-              let methodStringChar = '';
-              let j = methodStart;
-
-              while (j < programContent.length && programContent[j] !== '{') {
-                j++;
-              }
-
-              if (j < programContent.length) {
-                methodBraceCount = 1;
-                j++;
-
-                while (j < programContent.length && methodBraceCount > 0) {
-                  const c = programContent[j];
-                  const p = j > 0 ? programContent[j - 1] : '';
-
-                  if ((c === '"' || c === "'") && p !== '\\') {
-                    if (!methodInString) {
-                      methodInString = true;
-                      methodStringChar = c;
-                    } else if (c === methodStringChar) {
-                      methodInString = false;
-                    }
-                  }
-
-                  if (!methodInString) {
-                    if (c === '{') methodBraceCount++;
-                    else if (c === '}') {
-                      methodBraceCount--;
-                      if (methodBraceCount === 0) {
-                        let methodCode = programContent.substring(methodStart, j + 1);
-
-                        methodCode = methodCode.replace(
-                          /public\s+static\s+/,
-                          'public ',
-                        );
-
-                        const unindentedMethod = methodCode
-                          .split('\n')
-                          .map((line) => {
-                            if (line.trim()) {
-                              return line.replace(/^ {8}/, '');
-                            }
-                            return line;
-                          })
-                          .join('\n')
-                          .trim();
-
-                        if (unindentedMethod) {
-                          result.push(unindentedMethod);
-                        }
-                        break;
-                      }
-                    }
-                  }
-                  j++;
-                }
-              }
-
-              methodMatch = staticMethodRegex.exec(programContent);
-            }
+            // Program 类的内容已经找到，不需要提取其中的方法
+            // 因为通常脚本代码中不会有需要提取的 public static 方法
+            // 如果需要提取方法，可以在后续版本中添加
             break;
           }
         }
@@ -546,16 +778,34 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
   if (regionMatch) {
     const scriptCode = regionMatch[1].trim();
 
-    const unindentedScript = scriptCode
-      .split('\n')
-      .map((line) => {
-        if (line.trim()) {
-          return line.replace(/^ {12}/, '');
-        }
-        return line;
-      })
-      .join('\n')
-      .trim();
+    // 去除 Main 方法级别的缩进（12个空格），规范化缩进
+    const lines = scriptCode.split('\n');
+    let braceDepth = 0;
+    const formattedLines: string[] = [];
+    
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed) {
+        formattedLines.push('');
+        continue;
+      }
+      
+      // 先减少缩进（如果以 } 开头）
+      if (trimmed.startsWith('}')) {
+        braceDepth = Math.max(0, braceDepth - 1);
+      }
+      
+      // 计算缩进：去除 Main 方法的12个空格，保持块内部的相对缩进
+      const indent = ' '.repeat(braceDepth * 4);
+      formattedLines.push(indent + trimmed);
+      
+      // 增加缩进（如果以 { 结尾）
+      if (trimmed.endsWith('{')) {
+        braceDepth++;
+      }
+    }
+    
+    const unindentedScript = formattedLines.join('\n').trim();
 
     const restoredScript = unindentedScript.replace(
       /\/\/\s*return\s+([^;]+);?/g,
