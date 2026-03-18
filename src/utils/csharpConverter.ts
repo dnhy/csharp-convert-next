@@ -297,7 +297,9 @@ export function parseCSharpCode(sourceCode: string): ParseResult {
           /\w/.test(char)
         ) {
           const remaining = sourceCode.substring(i);
-          const methodNameMatch = remaining.match(/^(\w+)\s*\(/);
+          // 支持泛型方法名：Method<T>(...) / Method<TKey, TValue>(...)
+          // 这里我们只需要判断“当前位置是否是方法名起始”，因此允许可选的 <...> 出现在方法名和 '(' 之间
+          const methodNameMatch = remaining.match(/^(\w+)(?:<[^>]+>)?\s*\(/);
           if (methodNameMatch) {
             foundMethodName = true;
             i += methodNameMatch[1].length - 1;
@@ -407,7 +409,13 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
   // 格式化类定义，确保缩进正确（namespace 内部：4个空格，类内部：8个空格）
   const classesSection = parseResult.classes
     .map((cls) => {
-      const lines = cls.split('\n');
+      // 为类中的方法添加 static 关键字（仅针对具有参数列表的成员，避免影响字段/属性）
+      const clsWithStaticMethods = cls.replace(
+        /(public|private|protected|internal)\s+(?!static)(?=(?:\s+async\s+)?[\w<>\[\]?]+\s+\w+\s*\()/g,
+        '$1 static ',
+      );
+
+      const lines = clsWithStaticMethods.split('\n');
       let braceDepth = 0;
       const formattedLines: string[] = [];
       
@@ -517,9 +525,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;`;
 
   const mainMethod = `    internal class Program
     {
+        // 提供给静态方法/脚本代码共享的全局上下文（避免 Main 内部局部变量遮蔽）
+        public static Global Global = new Global();
+
         static async Task Main(string[] args)
         {
-            var Global = new Global();
             Global.SqlManager = new SqlSugarManager("${connectionString.replace(/"/g, '\\"')}", SqlSugar.DbType.${dbType});
 
             Global.Parameters = new List<SugarParameter>();
@@ -694,7 +704,12 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
         } else if (char === '}') {
           braceCount--;
           if (braceCount === 0) {
-            const classCode = namespaceContent.substring(classStartIndex, i + 1);
+            let classCode = namespaceContent.substring(classStartIndex, i + 1);
+            // 去除类中方法上的 static 关键字（仅针对具有参数列表的成员，避免影响字段/属性）
+            classCode = classCode.replace(
+              /(public|private|protected|internal)\s+static\s+(?=(?:\s+async\s+)?[\w<>\[\]?]+\s+\w+\s*\()/g,
+              '$1 ',
+            );
             if (!classCode.includes('class Program')) {
               // 去除 namespace 级别的缩进（4个空格），规范化缩进
               const lines = classCode.split('\n');
@@ -828,7 +843,13 @@ export function reverseConvertCSharpFile(convertedCode: string): string {
                         .trim();
 
                       if (unindentedMethod) {
-                        result.push(unindentedMethod);
+                        // 还原为脚本中的独立方法：去掉 Program 中为了编译而添加的 static
+                        // 仅去掉访问修饰符后的 static，避免误伤其它上下文
+                        const restoredMethod = unindentedMethod.replace(
+                          /^(public|private|protected|internal)\s+static\s+/m,
+                          '$1 ',
+                        );
+                        result.push(restoredMethod);
                       }
                       break;
                     }

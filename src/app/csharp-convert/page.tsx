@@ -2,9 +2,11 @@
 
 import React, { useCallback, useState } from "react";
 import { CodeEditor } from "@/components/CodeEditor";
+import { ToolMenu } from "@/components/ToolMenu";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { uiConfig } from "@/config/uiConfig";
 import {
   convertCSharpScript,
   reverseConvertCSharpFile,
@@ -141,13 +143,16 @@ export default function CSharpConvertPage() {
   return (
     <div className="min-h-screen bg-slate-100 py-4 px-2">
       <div className="w-full rounded-none border-b border-slate-200 bg-white shadow-sm p-4 md:p-6 space-y-6">
-        <header className="space-y-1">
-          <h1 className="text-2xl font-semibold text-slate-900">
-            C# 脚本转换器
-          </h1>
-          <p className="text-sm text-slate-500">
-            在左侧编辑脚本代码，右侧查看生成的可调试 C# 文件，可在底部配置数据源。
-          </p>
+        <header className="flex items-start justify-between gap-4">
+          <div className="space-y-1">
+            <h1 className="text-2xl font-semibold text-slate-900">C# 脚本转换器</h1>
+            <p className="text-sm text-slate-500">
+              在左侧编辑脚本代码，右侧查看生成的可调试 C# 文件，可在底部配置数据源。
+            </p>
+          </div>
+          <div className="pt-0.5">
+            {uiConfig.enableToolMenu ? <ToolMenu /> : null}
+          </div>
         </header>
 
         <div className="grid gap-4 md:grid-cols-2">
