@@ -27,6 +27,7 @@ export type ToolPageConfig = {
 };
 
 export function createToolMetadata(cfg: ToolPageConfig): Metadata {
+  const ogImagePath = `${cfg.path}/opengraph-image`;
   return {
     title: cfg.metaTitle,
     description: cfg.metaDescription,
@@ -36,11 +37,20 @@ export function createToolMetadata(cfg: ToolPageConfig): Metadata {
       description: cfg.shareDescription,
       url: cfg.path,
       type: "website",
+      images: [
+        {
+          url: ogImagePath,
+          width: 1200,
+          height: 630,
+          alt: cfg.shareTitle,
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: cfg.shareTitle,
       description: cfg.shareDescription,
+      images: [ogImagePath],
     },
   };
 }
