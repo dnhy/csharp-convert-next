@@ -31,7 +31,19 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-# .env*
+# .gitignore
+.env
+.env.local
+.env*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# 其他敏感文件
+*.pem
+*.key
+*.cert
+.DS_Store
 
 # vercel
 .vercel
