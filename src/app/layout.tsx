@@ -5,6 +5,7 @@ import { TopProgressBar } from "@/components/TopProgressBar";
 import { PageTransition } from "@/components/PageTransition";
 import { LoadingOverlay } from "@/components/LoadingOverlay";
 import { uiConfig } from "@/config/uiConfig";
+import { getSiteUrl } from "@/lib/siteUrl";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(getSiteUrl()),
   title: "C# Script Converter",
   description: "C# script automatically converts for easier debugging",
 };
