@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { TopProgressBar } from "@/components/TopProgressBar";
 import { PageTransition } from "@/components/PageTransition";
@@ -7,15 +7,15 @@ import { LoadingOverlay } from "@/components/LoadingOverlay";
 import { uiConfig } from "@/config/uiConfig";
 import { getSiteUrl } from "@/lib/siteUrl";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body >
         <TopProgressBar />
         {uiConfig.enableLoadingOverlay ? <LoadingOverlay /> : null}
         {uiConfig.enablePageBounceTransition ? (

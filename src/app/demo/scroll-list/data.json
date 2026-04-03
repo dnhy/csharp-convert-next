@@ -1,0 +1,5665 @@
+[
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "111853-05/11BMP",
+      "onhandQty": "2240.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "1124399",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "1702766",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "2206054-00-ASM",
+      "onhandQty": "8200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "223857100-GEF",
+      "onhandQty": "6720.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "236115",
+      "onhandQty": "8400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "2CA2YY00484-EMA",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "2CG3YY00219-EMA",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-0833-02",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-0833-02-AVW",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-0979-01-AVW",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-0994-02",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-0994-02-AVW",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-101200-01AVW",
+      "onhandQty": "714.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-1143-01",
+      "onhandQty": "4860.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-1158-01-AVW",
+      "onhandQty": "350.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "2490.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-1711-01-AVW",
+      "onhandQty": "740.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "37-2026-01-AVW",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "5158429A",
+      "onhandQty": "3040.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "6000.0224",
+      "onhandQty": "1600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "6736107-3-PJE",
+      "onhandQty": "400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "6736107-5-AVW",
+      "onhandQty": "100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "32480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-0557",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-0557-ACS",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-0770-01-ACS",
+      "onhandQty": "1120.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-0770-01-AVW",
+      "onhandQty": "2880.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-3677-01-EHH",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "72-4161-01",
+      "onhandQty": "2520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "8120-8709",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "9014181A",
+      "onhandQty": "7800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "911549",
+      "onhandQty": "2100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "951604-AVW",
+      "onhandQty": "15540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "951732-AVW",
+      "onhandQty": "1005.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "AP8702S-NA-IAP",
+      "onhandQty": "180.00000000",
+      "ium": "ST"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "AT8121-3361-BVT",
+      "onhandQty": "360.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "CG3YY00191J-EMA",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "CT2YY00095X-CMA",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "FK2-3557-ECN",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "FK2-7370-CCK",
+      "onhandQty": "980.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "FK4-5515-CCK",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "LW2359-001-CBR",
+      "onhandQty": "2800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "PN07M667UE-KTP",
+      "onhandQty": "1040.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "RC05010651-IPT",
+      "onhandQty": "1800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "WU79510-GYA",
+      "onhandQty": "450.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "00",
+      "partNum": "XF5050001-JBR",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG011",
+      "partNum": "330072-19-AVW",
+      "onhandQty": "1120.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG021",
+      "partNum": "330122-61-AVW",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG021",
+      "partNum": "5135321C",
+      "onhandQty": "420.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG021",
+      "partNum": "X364H-BDL",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG021",
+      "partNum": "K260C-AVW",
+      "onhandQty": "1080.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG031",
+      "partNum": "468396-03/08BMP",
+      "onhandQty": "80.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG031",
+      "partNum": "497-0420134-DUI",
+      "onhandQty": "980.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG032",
+      "partNum": "097S 63800N-EXT",
+      "onhandQty": "190.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG041",
+      "partNum": "72-3675-01-AVW",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG042",
+      "partNum": "468396-03/08BMP",
+      "onhandQty": "960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG051",
+      "partNum": "468396-03/08BMP",
+      "onhandQty": "240.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG061",
+      "partNum": "951001-AVW",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG061",
+      "partNum": "2206054-00-ASM",
+      "onhandQty": "2000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG062",
+      "partNum": "111853-05/11BMP",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG063",
+      "partNum": "111853-05/11BMP",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG071",
+      "partNum": "72-0772-01",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH011",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "910.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH011",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "210.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH021",
+      "partNum": "72-1411-01",
+      "onhandQty": "516.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH031",
+      "partNum": "72-4161-01",
+      "onhandQty": "280.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH031",
+      "partNum": "37-1158-01-AVW",
+      "onhandQty": "650.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH041",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "980.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH052",
+      "partNum": "5120P-AVW",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH071",
+      "partNum": "1124394",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH071",
+      "partNum": "2126982-01-IEP",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI011",
+      "partNum": "72-0770-01-AVW",
+      "onhandQty": "440.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI011",
+      "partNum": "SJ1SD3SX15B-GTK",
+      "onhandQty": "490.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI011",
+      "partNum": "SJ1SD3SZ50B-GTK",
+      "onhandQty": "135.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI012",
+      "partNum": "D00YYF001-CBR",
+      "onhandQty": "980.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI021",
+      "partNum": "M-1310-AVW",
+      "onhandQty": "144.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI021",
+      "partNum": "218861300-EEP",
+      "onhandQty": "400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI021",
+      "partNum": "2206048-00",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI022",
+      "partNum": "MH2-5402-ECN",
+      "onhandQty": "1650.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI031",
+      "partNum": "951031-AVW",
+      "onhandQty": "60.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI031",
+      "partNum": "1124380",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI031",
+      "partNum": "72-0770-01-AVW",
+      "onhandQty": "280.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI031",
+      "partNum": "8120-5429",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI032",
+      "partNum": "ACC000501-DJB",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI041",
+      "partNum": "9170",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI041",
+      "partNum": "399063-02-AVW",
+      "onhandQty": "700.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI041",
+      "partNum": "59.1448",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI051",
+      "partNum": "951076-AVW",
+      "onhandQty": "200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI051",
+      "partNum": "951064-AVW",
+      "onhandQty": "285.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI051",
+      "partNum": "N912D-BDL",
+      "onhandQty": "300.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI061",
+      "partNum": "951604-AVW",
+      "onhandQty": "1320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI061",
+      "partNum": "9014181A",
+      "onhandQty": "1800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI062",
+      "partNum": "72-0770-01-AVW",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI071",
+      "partNum": "5158429A",
+      "onhandQty": "800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI081",
+      "partNum": "6736114-5-AVW",
+      "onhandQty": "1085.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI082",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "270.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI092",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "720.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI102",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "1260.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI122",
+      "partNum": "SJ1SD3SZ50B-GTK",
+      "onhandQty": "180.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI122",
+      "partNum": "SJ1SD3SX20B-GTK",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI123",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI131",
+      "partNum": "7AAACCUS10H-EMI",
+      "onhandQty": "100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI132",
+      "partNum": "2206048-00",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI132",
+      "partNum": "SJ1SD3SZ50B-GTK",
+      "onhandQty": "180.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI133",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI142",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI143",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI152",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI153",
+      "partNum": "2206048-00",
+      "onhandQty": "3840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ013",
+      "partNum": "EGG-EU-CGP",
+      "onhandQty": "1040.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ023",
+      "partNum": "EGG-EU-CGP",
+      "onhandQty": "960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ023",
+      "partNum": "LW2359-001-CBR",
+      "onhandQty": "3640.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ031",
+      "partNum": "676K 54881-CFJ",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ042",
+      "partNum": "LW2359-001-CBR",
+      "onhandQty": "3080.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ051",
+      "partNum": "LN8126-001-CBR",
+      "onhandQty": "2240.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ051",
+      "partNum": "LN8127-001-CBR",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ052",
+      "partNum": "676K 54881-CFJ",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ052",
+      "partNum": "675K 73682-CFJ",
+      "onhandQty": "30.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ053",
+      "partNum": "LSX2-TW-CGP",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL01",
+      "partNum": "D03FVU001-CBR",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL01",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "9000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL01",
+      "partNum": "223857100-EEP",
+      "onhandQty": "490.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL011",
+      "partNum": "2206054-00-ASM",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL011",
+      "partNum": "CT2YY00095J-EMA",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL012",
+      "partNum": "2206054-00-IEP",
+      "onhandQty": "3700.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL013",
+      "partNum": "2206054-00-IEP",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL013",
+      "partNum": "097S63422-EXT",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "5155498A",
+      "onhandQty": "7200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "5128240",
+      "onhandQty": "7200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "5146156B",
+      "onhandQty": "12000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "17220.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "9020791C",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "911549",
+      "onhandQty": "2100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "9703904",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL02",
+      "partNum": "M-1310-AVW",
+      "onhandQty": "864.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL021",
+      "partNum": "72-3678-01-EHH",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL022",
+      "partNum": "2206054-00-IEP",
+      "onhandQty": "1700.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL022",
+      "partNum": "EHHS95P668B-KME",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL023",
+      "partNum": "2206054-00-IEP",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL023",
+      "partNum": "097S63422-EXT",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL03",
+      "partNum": "1124380",
+      "onhandQty": "9600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL03",
+      "partNum": "72-4161-01-AVW",
+      "onhandQty": "20230.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL03",
+      "partNum": "37-1495-01-AVW",
+      "onhandQty": "5580.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL03",
+      "partNum": "5120P-AVW",
+      "onhandQty": "3600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL03",
+      "partNum": "VJT0P-AVW",
+      "onhandQty": "900.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL031",
+      "partNum": "EC07520701-IPT",
+      "onhandQty": "800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL031",
+      "partNum": "EC07522002-IPT",
+      "onhandQty": "180.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL032",
+      "partNum": "009-0009085",
+      "onhandQty": "40.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL032",
+      "partNum": "006-0084423",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL033",
+      "partNum": "097S 63800N-EXT",
+      "onhandQty": "640.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "2107538-00-IEP",
+      "onhandQty": "14000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "951001-AVW",
+      "onhandQty": "2880.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "72-0259-AVW",
+      "onhandQty": "22260.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "EC07522002-IPT",
+      "onhandQty": "840.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "951604-AVW",
+      "onhandQty": "1440.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "951064-AVW",
+      "onhandQty": "720.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "951031-AVW",
+      "onhandQty": "960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "EC07520201-IPT",
+      "onhandQty": "2000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL04",
+      "partNum": "ACC000501-DJB",
+      "onhandQty": "2960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL041",
+      "partNum": "2CS3YY00034-HPA",
+      "onhandQty": "980.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL042",
+      "partNum": "006-0084423",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL042",
+      "partNum": "009-0009085",
+      "onhandQty": "960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL043",
+      "partNum": "2206054-00-IEP",
+      "onhandQty": "4800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL05",
+      "partNum": "ACC000501-DJB",
+      "onhandQty": "1600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL05",
+      "partNum": "EC07520701-IPT",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL051",
+      "partNum": "2CG3YY00219-EMA",
+      "onhandQty": "800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL052",
+      "partNum": "72-1925-01-EHH",
+      "onhandQty": "550.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL06",
+      "partNum": "951001-AVW",
+      "onhandQty": "300.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL06",
+      "partNum": "399063-02-AVW",
+      "onhandQty": "2200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL06",
+      "partNum": "330079-98-L-AVW",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL06",
+      "partNum": "HMMDD-AVW",
+      "onhandQty": "5400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL06",
+      "partNum": "VJT0P-AVW",
+      "onhandQty": "120.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL061",
+      "partNum": "WW46450-CHD",
+      "onhandQty": "1050.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL061",
+      "partNum": "2CM3YY00058-EMA",
+      "onhandQty": "490.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL062",
+      "partNum": "009-0009085",
+      "onhandQty": "40.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL062",
+      "partNum": "006-0084423",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL062",
+      "partNum": "097S 63800N-EXT",
+      "onhandQty": "210.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL071",
+      "partNum": "A5000600005-HNE",
+      "onhandQty": "225.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL072",
+      "partNum": "009-0009085",
+      "onhandQty": "960.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ011",
+      "partNum": "2206054-00-ASM",
+      "onhandQty": "2400.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ011",
+      "partNum": "QACC-A206WR-KSM",
+      "onhandQty": "1020.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ012",
+      "partNum": "RC05010660-IPT",
+      "onhandQty": "1500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ021",
+      "partNum": "QACC-A018E1-KSM",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ021",
+      "partNum": "EHHW17P668H-KME",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ031",
+      "partNum": "QACC-A018E1-KSM",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ031",
+      "partNum": "AP8750-IAP",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ041",
+      "partNum": "72-3675-01-EHH",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ052",
+      "partNum": "5134019A",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ061",
+      "partNum": "111853-05/11BMP",
+      "onhandQty": "320.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "5154613A",
+      "onhandQty": "5100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "37-1806-01-AVW",
+      "onhandQty": "2880.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "72-5595-01-AVW",
+      "onhandQty": "360.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "LSX2-CN-CGP",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "FK4-1390-ECN",
+      "onhandQty": "16740.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "00",
+      "partNum": "RC05010850-IPT",
+      "onhandQty": "1000.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG011",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG012",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "1080.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG042",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "1080.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG062",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG081",
+      "partNum": "37-1806-01-AVW",
+      "onhandQty": "180.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH031",
+      "partNum": "37-1806-01",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH071",
+      "partNum": "2X976-BDL",
+      "onhandQty": "240.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH072",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI071",
+      "partNum": "5154613A",
+      "onhandQty": "2100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI092",
+      "partNum": "37-1806-01-AVW",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI131",
+      "partNum": "0P014-AVW",
+      "onhandQty": "330.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI141",
+      "partNum": "C29P4-CDL",
+      "onhandQty": "200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ022",
+      "partNum": "FK4-1390-DCN",
+      "onhandQty": "540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL02",
+      "partNum": "5154613A",
+      "onhandQty": "28800.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL021",
+      "partNum": "FK4-1390-ECN",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL031",
+      "partNum": "FK4-1390-ECN",
+      "onhandQty": "900.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL032",
+      "partNum": "009-0028915",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL05",
+      "partNum": "FK4-1390-ECN",
+      "onhandQty": "18240.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL051",
+      "partNum": "37-1806-01-EHH",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL052",
+      "partNum": "FK2-3106-ECN",
+      "onhandQty": "100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL06",
+      "partNum": "37-0832-02-CFL",
+      "onhandQty": "496.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL063",
+      "partNum": "A20C02900-IMA",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL072",
+      "partNum": "A20C2931-IMA",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL073",
+      "partNum": "A20C02900-IMA",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ012",
+      "partNum": "FK4-1390-ECN",
+      "onhandQty": "120.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ051",
+      "partNum": "A20C02900-IMA",
+      "onhandQty": "600.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ051",
+      "partNum": "960-0524-FAX",
+      "onhandQty": "525.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ061",
+      "partNum": "FK3-2289-ECN",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ062",
+      "partNum": "9028150A",
+      "onhandQty": "900.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "732007550-BBL",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "833.89.006-CWS",
+      "onhandQty": "7200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "313920-DPI",
+      "onhandQty": "100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "142015-DFG",
+      "onhandQty": "1300.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "142016-DFG",
+      "onhandQty": "2760.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "142017-DFG",
+      "onhandQty": "510.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "142018-DFG",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "142019-DFG",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "KID2873-DLD",
+      "onhandQty": "1040.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "KID2875-DLD",
+      "onhandQty": "1050.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "00",
+      "partNum": "V5130020S-CWS",
+      "onhandQty": "1050.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG032",
+      "partNum": "CAB322-DGG",
+      "onhandQty": "990.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH042",
+      "partNum": "CAB336HC-DGG",
+      "onhandQty": "520.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH052",
+      "partNum": "CAB403-DGG",
+      "onhandQty": "490.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH072",
+      "partNum": "8601449-DEC",
+      "onhandQty": "200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI121",
+      "partNum": "6736114-2-DGM",
+      "onhandQty": "560.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI141",
+      "partNum": "0404A0C2-DAI",
+      "onhandQty": "480.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ011",
+      "partNum": "SM020000203-DFA",
+      "onhandQty": "1540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ011",
+      "partNum": "SM020000603-DFA",
+      "onhandQty": "1100.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ012",
+      "partNum": "SM020000603-DFA",
+      "onhandQty": "2200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ022",
+      "partNum": "SM020000603-DFA",
+      "onhandQty": "1540.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ024",
+      "partNum": "648410-DGG",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ032",
+      "partNum": "C3225962-CSS",
+      "onhandQty": "1050.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ033",
+      "partNum": "0404A0C2-DAI",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ034",
+      "partNum": "648410-DGG",
+      "onhandQty": "1200.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ043",
+      "partNum": "141998-DFG",
+      "onhandQty": "700.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ043",
+      "partNum": "142005-DFG",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ051",
+      "partNum": "C350455-205-CSS",
+      "onhandQty": "1920.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "HRD20613182-CWS",
+      "onhandQty": "1020.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "142013-DFG",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "142002-DFG",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "142024-DFG",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "142040-DFG",
+      "onhandQty": "500.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL01",
+      "partNum": "009-005502-ZEP",
+      "onhandQty": "420.00000000",
+      "ium": "EA"
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FG142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH143",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH152",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH153",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FH154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FI154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FJ054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FL073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-B",
+      "whseBin_BinNum": "FQ063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FG142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH143",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH152",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH153",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FH154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI143",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI152",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI153",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FI154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FJ054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL01",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL03",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL04",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FL071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-GT",
+      "whseBin_BinNum": "FQ063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FG123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH121",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH141",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH143",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH152",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH153",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FH154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI024",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI034",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI064",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI074",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI081",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI082",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI083",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI084",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI091",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI092",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI093",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI094",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI101",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI102",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI103",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI104",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI111",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI112",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI113",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI114",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI122",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI123",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI124",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI131",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI132",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI133",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI134",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI142",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI143",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI144",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI151",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI152",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI153",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FI154",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ014",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ044",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FJ054",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL02",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL03",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL04",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL05",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL06",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL071",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL072",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FL073",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ011",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ012",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ013",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ021",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ022",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ023",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ031",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ032",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ033",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ041",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ042",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ043",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ051",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ052",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ053",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ061",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ062",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    },
+    {
+      "whseBin_WarehouseCode": "23FS-NB",
+      "whseBin_BinNum": "FQ063",
+      "partNum": null,
+      "onhandQty": null,
+      "ium": null
+    }
+  ]
