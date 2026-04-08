@@ -3,7 +3,7 @@
 import { StarOutlined } from "@ant-design/icons";
 import { Button, Modal } from "antd";
 
-export default function ModalTest() {
+export default function AntdModalUse() {
   const [modal, contextHolder] = Modal.useModal();
 
   return (
@@ -19,7 +19,7 @@ export default function ModalTest() {
           console.log("Confirmed: ", confirmed);
         }}
       >
-        Confirm
+        Confirm 
       </Button>
       {contextHolder}
     </div>

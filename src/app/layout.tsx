@@ -6,6 +6,8 @@ import { PageTransition } from "@/components/PageTransition";
 import { LoadingOverlay } from "@/components/LoadingOverlay";
 import { uiConfig } from "@/config/uiConfig";
 import { getSiteUrl } from "@/lib/siteUrl";
+import { Providers } from "@/components/providers";
+import ModalStack from "@/components/ui/modal/ModalStack";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -31,13 +33,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <TopProgressBar />
-        {uiConfig.enableLoadingOverlay ? <LoadingOverlay /> : null}
-        {uiConfig.enablePageBounceTransition ? (
-          <PageTransition>{children}</PageTransition>
-        ) : (
-          children
-        )}
+        <Providers>
+          <TopProgressBar />
+          <ModalStack />
+          {uiConfig.enableLoadingOverlay ? <LoadingOverlay /> : null}
+          {uiConfig.enablePageBounceTransition ? (
+            <PageTransition>{children}</PageTransition>
+          ) : (
+            children
+          )}
+        </Providers>
       </body>
     </html>
   );
