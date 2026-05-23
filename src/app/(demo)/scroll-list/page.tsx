@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import rawData from "@/app/demo/scroll-list/data.json";
+import rawData from "@/app/(demo)/scroll-list/data.json";
 
 type RawBin = {
   whseBin_BinNum: string | null;

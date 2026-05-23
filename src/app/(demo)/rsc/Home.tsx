@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
 export default function Home() {
-  return <div>{Date.now()}</div>
+  return <div>{Date.now()}</div>;
 }
