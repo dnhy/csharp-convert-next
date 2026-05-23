@@ -54,7 +54,9 @@ a {
   border-radius: 8px;
   font-size: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  animation: slideInRight 0.3s ease-out, fadeOut 0.3s ease-in 2.7s;
+  animation:
+    slideInRight 0.3s ease-out,
+    fadeOut 0.3s ease-in 2.7s;
   animation-fill-mode: forwards;
   min-width: 200px;
   max-width: 400px;
@@ -117,6 +119,108 @@ a {
   }
   100% {
     background-color: transparent;
+  }
+}
+
+/* AI 模式：转换/反向转换按钮样式 */
+.ai-mode-btn {
+  background: #c4e3fe !important;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1)) !important;
+  border: none !important;
+}
+
+.ai-mode-btn:hover {
+  background: #a8d4fd !important;
+}
+
+/* AI 按钮自身样式 */
+.rainbow-btn-bg {
+  background: #c4e3fe !important;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1)) !important;
+  border: none !important;
+}
+
+.rainbow-btn-bg:hover {
+  background: #a8d4fd !important;
+}
+
+/* AI 按钮图标 — Gemini 蓝色 */
+.rainbow-icon {
+  color: #4285f4;
+}
+
+/* AI 加载遮罩层 */
+.ai-loading-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-loading-box {
+  background: #1a1a1a;
+  border-radius: 16px;
+  padding: 48px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.ai-loading-ring {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-loading-dot {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.ai-loading-ring::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  animation: ai-pulse 2s ease-in-out infinite;
+}
+
+.ai-loading-text {
+  color: #999;
+  font-size: 15px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes ai-pulse {
+  0% {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+  }
+  50% {
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+  }
+  100% {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
   }
 }
 
