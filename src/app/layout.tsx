@@ -4,6 +4,7 @@ import "./globals.css";
 import { TopProgressBar } from "@/components/TopProgressBar";
 import { PageTransition } from "@/components/PageTransition";
 import { LoadingOverlay } from "@/components/LoadingOverlay";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { uiConfig } from "@/config/uiConfig";
 import { getSiteUrl } from "@/lib/siteUrl";
 import { Providers } from "@/components/providers";
@@ -31,17 +32,37 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var mode = localStorage.getItem('theme-mode') || 'system';
+                  var dark = mode === 'dark' || (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                  if (dark) {
+                    document.documentElement.classList.add('dark');
+                    document.documentElement.style.colorScheme = 'dark';
+                  }
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body>
         <Providers>
-          <TopProgressBar />
-          <ModalStack />
-          {uiConfig.enableLoadingOverlay ? <LoadingOverlay /> : null}
-          {uiConfig.enablePageBounceTransition ? (
-            <PageTransition>{children}</PageTransition>
-          ) : (
-            children
-          )}
+          <ThemeProvider>
+            <TopProgressBar />
+            <ModalStack />
+            {uiConfig.enableLoadingOverlay ? <LoadingOverlay /> : null}
+            {uiConfig.enablePageBounceTransition ? (
+              <PageTransition>{children}</PageTransition>
+            ) : (
+              children
+            )}
+          </ThemeProvider>
         </Providers>
       </body>
     </html>

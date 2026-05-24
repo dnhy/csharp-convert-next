@@ -64,7 +64,7 @@ export function ToolMenu() {
     <div className="relative" ref={rootRef}>
       <button
         type="button"
-        className="inline-flex h-9 items-center gap-2 rounded-md border border-slate-300 bg-white px-3 text-sm text-slate-700 shadow-sm hover:border-blue-500 hover:text-blue-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+        className="inline-flex h-9 items-center gap-2 rounded-md border border-slate-300 dark:border-dark-border bg-white dark:bg-dark-surface px-3 text-sm text-slate-700 dark:text-slate-300 shadow-sm hover:border-blue-500 hover:text-blue-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
@@ -76,7 +76,7 @@ export function ToolMenu() {
         <motion.span
           animate={{ rotate: open ? 180 : 0 }}
           transition={{ type: "spring", stiffness: 400, damping: 30 }}
-          className="text-slate-500"
+          className="text-slate-500 dark:text-slate-400"
         >
           <Icon icon="mdi:chevron-down" width={18} height={18} />
         </motion.span>
@@ -90,11 +90,11 @@ export function ToolMenu() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -6, scale: 0.98 }}
             transition={{ type: "spring", stiffness: 500, damping: 35 }}
-            className="absolute right-0 mt-2 w-[320px] overflow-hidden rounded-lg border border-slate-200 bg-white shadow-lg z-50"
+            className="absolute right-0 mt-2 w-[320px] overflow-hidden rounded-lg border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-surface shadow-lg z-50"
             role="menu"
             aria-label="工具菜单"
           >
-            <div className="px-3 py-2 text-xs font-semibold text-slate-500 bg-slate-50 border-b border-slate-200">
+            <div className="px-3 py-2 text-xs font-semibold text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-dark-surface border-b border-slate-200 dark:border-dark-border">
               选择工具
             </div>
             <div className="p-2">
@@ -115,26 +115,26 @@ export function ToolMenu() {
                       "w-full text-left rounded-md px-3 py-2",
                       "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500",
                       isActive
-                        ? "bg-blue-50 text-blue-700"
-                        : "hover:bg-slate-50 text-slate-800",
+                        ? "bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300"
+                        : "hover:bg-slate-50 dark:hover:bg-dark-surface text-slate-800 dark:text-slate-200",
                     ].join(" ")}
                     role="menuitem"
                   >
                     <div className="flex items-start justify-between gap-3">
                       <div className="min-w-0">
                         <div className="text-sm font-medium truncate">{t.label}</div>
-                        <div className="text-xs text-slate-500 truncate">{t.description}</div>
+                        <div className="text-xs text-slate-500 dark:text-slate-400 truncate">{t.description}</div>
                       </div>
                       <div className="pt-0.5">
                         {isActive ? (
                           <motion.span
                             layoutId="tool-menu-active"
-                            className="inline-flex items-center rounded-full bg-blue-100 px-2 py-0.5 text-[11px] font-semibold text-blue-700"
+                            className="inline-flex items-center rounded-full bg-blue-100 dark:bg-blue-900 px-2 py-0.5 text-[11px] font-semibold text-blue-700 dark:text-blue-300"
                           >
                             当前
                           </motion.span>
                         ) : (
-                          <span className="inline-flex items-center rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">
+                          <span className="inline-flex items-center rounded-full bg-slate-100 dark:bg-dark-border px-2 py-0.5 text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                             打开
                           </span>
                         )}

@@ -76,16 +76,16 @@ function JsonLd({ cfg }: { cfg: ToolPageConfig }) {
 export function createToolPage(cfg: ToolPageConfig, Content: React.ReactNode) {
   return function ToolPage() {
     return (
-      <div className="min-h-screen bg-slate-100 py-4 px-2">
-        <div className="w-full rounded-none border-b border-slate-200 bg-white shadow-sm p-4 md:p-6 space-y-6">
+      <div className="min-h-screen bg-slate-100 py-4 px-2 dark:bg-dark-base">
+        <div className="w-full rounded-none border-b border-slate-200 bg-white shadow-sm p-4 md:p-6 space-y-6 dark:border-dark-border dark:bg-dark-surface">
           <JsonLd cfg={cfg} />
 
           <header className="flex items-start justify-between gap-4">
             <div className="space-y-1">
-              <h1 className="text-2xl font-semibold text-slate-900">{cfg.h1}</h1>
-              <p className="text-sm text-slate-500">{cfg.lead}</p>
+              <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">{cfg.h1}</h1>
+              <p className="text-sm text-slate-500 dark:text-slate-400">{cfg.lead}</p>
               {cfg.subLead ? (
-                <p className="text-xs text-slate-500 max-w-3xl">{cfg.subLead}</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400 max-w-3xl">{cfg.subLead}</p>
               ) : null}
             </div>
             <div className="pt-0.5">{uiConfig.enableToolMenu ? <ToolMenu /> : null}</div>

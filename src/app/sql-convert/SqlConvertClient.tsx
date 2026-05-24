@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { applySqlVariables, extractSqlFromCSharp, reverseSqlToCSharpVar } from "@/utils/sqlConverter";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 type MessageType = "success" | "error" | "warning";
 
@@ -129,18 +130,18 @@ export function SqlConvertClient() {
       <div className="grid gap-4 md:grid-cols-2">
         <div className="flex flex-col min-w-0 space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-medium text-slate-700">C# Code</span>
+            <span className="text-sm font-medium text-slate-700 dark:text-slate-300">C# Code</span>
           </div>
-          <div className="border border-slate-200 rounded-md overflow-hidden bg-slate-50">
+          <div className="border border-slate-200 dark:border-dark-border rounded-md overflow-hidden bg-slate-50 dark:bg-dark-surface">
             <CodeEditor value={csharpCode} onChange={setCsharpCode} />
           </div>
         </div>
 
         <div className="flex flex-col min-w-0 space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-medium text-slate-700">SQL Output</span>
+            <span className="text-sm font-medium text-slate-700 dark:text-slate-300">SQL Output</span>
           </div>
-          <div className="border border-slate-200 rounded-md overflow-hidden bg-slate-50">
+          <div className="border border-slate-200 dark:border-dark-border rounded-md overflow-hidden bg-slate-50 dark:bg-dark-surface">
             <CodeEditor value={sqlOutput} onChange={setSqlOutput} />
           </div>
         </div>
@@ -162,21 +163,22 @@ export function SqlConvertClient() {
       </div>
 
       {message && <div className={`message message-${message.type}`}>{message.text}</div>}
+      <ThemeToggle />
 
-      <section className="mt-2 rounded-lg border border-slate-200 bg-slate-50 p-4 space-y-4">
-        <h2 className="text-sm font-semibold text-slate-800">外部变量</h2>
-        <p className="text-xs text-slate-600">
+      <section className="mt-2 rounded-lg border border-slate-200 dark:border-dark-border bg-slate-50 dark:bg-dark-surface p-4 space-y-4">
+        <h2 className="text-sm font-semibold text-slate-800 dark:text-slate-200">外部变量</h2>
+        <p className="text-xs text-slate-600 dark:text-slate-400">
           识别规则：<code>@linename</code> 会替换为 <code>{`'实际值'`}</code>（自动加单引号并转义），
           <code>{"{queryStartTime}"}</code> 直接替换为输入内容（不自动加引号）。
         </p>
 
         {variableRows.length === 0 ? (
-          <div className="text-sm text-slate-500">暂无变量。点击“转换”后会自动识别并显示。</div>
+          <div className="text-sm text-slate-500 dark:text-slate-400">暂无变量。点击”转换”后会自动识别并显示。</div>
         ) : (
           <div className="grid gap-3 md:grid-cols-2">
             {variableRows.map((row) => (
               <div key={row.name} className="space-y-1">
-                <Label className="text-xs text-slate-600">{row.name}</Label>
+                <Label className="text-xs text-slate-600 dark:text-slate-400">{row.name}</Label>
                 <Input
                   type="text"
                   value={row.value}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Icon } from "@iconify/react";
 import CodeMirror from "@uiw/react-codemirror";
@@ -8,6 +8,7 @@ import { csharp } from "@replit/codemirror-lang-csharp";
 import { EditorView } from "@codemirror/view";
 import { StateEffect, StateField } from "@codemirror/state";
 import { Decoration, DecorationSet } from "@codemirror/view";
+import { useIsDark } from "@/atoms/theme";
 
 export interface CodeEditorProps {
   value: string;
@@ -46,6 +47,37 @@ const highlightField = StateField.define<DecorationSet>({
   provide: (f) => EditorView.decorations.from(f),
 });
 
+const editorDarkTheme = EditorView.theme(
+  {
+    "&": { backgroundColor: "#141414", color: "#d4d4d4" },
+    ".cm-content": { caretColor: "#d4d4d4" },
+    "&.cm-focused .cm-cursor": { borderLeftColor: "#d4d4d4" },
+    "&.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection":
+      { backgroundColor: "#264f78" },
+    ".cm-panels": { backgroundColor: "#141414", color: "#d4d4d4" },
+    ".cm-panels.cm-panels-top": { borderBottom: "1px solid #2a2a2a" },
+    ".cm-panels.cm-panels-bottom": { borderTop: "1px solid #2a2a2a" },
+    ".cm-activeLine": { backgroundColor: "#1a1a1a" },
+    ".cm-gutters": {
+      backgroundColor: "#141414",
+      color: "#858585",
+      borderRight: "1px solid #2a2a2a",
+    },
+    ".cm-activeLineGutter": { backgroundColor: "#1a1a1a" },
+    ".cm-foldPlaceholder": { backgroundColor: "#2a2a2a", color: "#ccc" },
+    ".cm-matchingBracket": {
+      backgroundColor: "#2a2a2a",
+      outline: "1px solid #888",
+    },
+    ".cm-tooltip": {
+      backgroundColor: "#1a1a1a",
+      color: "#d4d4d4",
+      border: "1px solid #2a2a2a",
+    },
+  },
+  { dark: true },
+);
+
 export const CodeEditor: React.FC<CodeEditorProps> = ({
   value,
   onChange,
@@ -56,6 +88,9 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   const editorRef = useRef<{ view?: EditorView } | null>(null);
   const clearTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const isDark = useIsDark();
+
+  const themeExtension = useMemo(() => (isDark ? editorDarkTheme : []), [isDark]);
 
   useEffect(() => {
     if (highlightLine === null || highlightLine === undefined) {
@@ -125,11 +160,11 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
   // 全屏渲染：通过 Portal 直接挂到 body，完全占据浏览器窗口
   if (isFullscreen) {
     return createPortal(
-      <div className="fixed inset-0 z-[1200] flex flex-col bg-white">
-        <div className="flex items-center justify-end px-3 py-2 border-b border-slate-200 bg-white shadow-sm">
+      <div className="fixed inset-0 z-[1200] flex flex-col bg-white dark:bg-dark-base">
+        <div className="flex items-center justify-end px-3 py-2 border-b border-slate-200 dark:border-dark-border bg-white dark:bg-dark-base shadow-sm">
           <button
             type="button"
-            className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-500 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 dark:border-dark-border bg-white dark:bg-dark-surface text-slate-500 dark:text-slate-400 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
             onClick={() => setIsFullscreen(false)}
           >
             <Icon icon="mdi:fullscreen-exit" width={18} height={18} />
@@ -143,7 +178,8 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
             value={value}
             height={fullscreenEditorHeight}
             width="100%"
-            extensions={[csharp(), highlightField]}
+            theme={isDark ? "dark" : "light"}
+            extensions={[csharp(), highlightField, themeExtension]}
             onChange={(val) => {
               if (!readOnly && onChange) {
                 onChange(val);
@@ -168,7 +204,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
       <div className="flex items-center justify-end mb-1">
         <button
           type="button"
-          className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-500 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+          className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 dark:border-dark-border bg-white dark:bg-dark-surface text-slate-500 dark:text-slate-400 shadow-sm hover:border-blue-500 hover:text-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
           onClick={() => setIsFullscreen(true)}
         >
           <Icon icon="mdi:fullscreen" width={18} height={18} />
@@ -182,7 +218,8 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
           value={value}
           height={normalEditorHeight}
           width="100%"
-          extensions={[csharp(), highlightField]}
+          theme={isDark ? "dark" : "light"}
+          extensions={[csharp(), highlightField, themeExtension]}
           onChange={(val) => {
             if (!readOnly && onChange) {
               onChange(val);

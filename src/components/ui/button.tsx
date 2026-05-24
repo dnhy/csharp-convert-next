@@ -15,9 +15,9 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variants: Record<NonNullable<ButtonProps["variant"]>, string> = {
       default:
-        "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600",
+        "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600 dark:bg-blue-500 dark:hover:bg-blue-600",
       outline:
-        "border border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50 focus-visible:ring-blue-600",
+        "border border-blue-600 text-blue-600 bg-transparent hover:bg-blue-50 focus-visible:ring-blue-600 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-950",
     };
 
     return (

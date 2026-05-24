@@ -7,11 +7,9 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #141414;
+  --foreground: #ededed;
 }
 
 html,
@@ -39,12 +37,7 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
+/* ---- message toast ---- */
 .message {
   position: fixed;
   top: 20px;
@@ -78,6 +71,25 @@ a {
   color: #d48806;
 }
 
+.dark .message {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.dark .message-success {
+  background-color: #162312;
+  color: #49aa19;
+}
+
+.dark .message-error {
+  background-color: #2c1213;
+  color: #e84749;
+}
+
+.dark .message-warning {
+  background-color: #2b2111;
+  color: #d89614;
+}
+
 @keyframes slideInRight {
   from {
     transform: translateX(100%);
@@ -98,16 +110,7 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .message {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  }
-}
-
-/* CodeMirror 高亮行样式 + 淡出动画
-   说明：
-   - 高亮类在编辑器中会在 3 秒后被代码移除，因此动画只会执行一次，不会因为滚动反复触发
-*/
+/* ---- CodeMirror 高亮行 ---- */
 .cm-highlight-line {
   background-color: rgba(255, 235, 59, 0.4);
   animation: cmLineHighlightFade 3s ease-out forwards;
@@ -122,7 +125,7 @@ a {
   }
 }
 
-/* AI 模式：转换/反向转换按钮样式 */
+/* ---- AI 模式按钮 ---- */
 .ai-mode-btn {
   background: #c4e3fe !important;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1)) !important;
@@ -133,7 +136,6 @@ a {
   background: #a8d4fd !important;
 }
 
-/* AI 按钮自身样式 */
 .rainbow-btn-bg {
   background: #c4e3fe !important;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1)) !important;
@@ -144,12 +146,22 @@ a {
   background: #a8d4fd !important;
 }
 
-/* AI 按钮图标 — Gemini 蓝色 */
 .rainbow-icon {
   color: #4285f4;
 }
 
-/* AI 加载遮罩层 */
+.dark .ai-mode-btn,
+.dark .rainbow-btn-bg {
+  background: #1a3a5c !important;
+  color: #93c5fd !important;
+}
+
+.dark .ai-mode-btn:hover,
+.dark .rainbow-btn-bg:hover {
+  background: #1e4870 !important;
+}
+
+/* ---- AI 加载遮罩 ---- */
 .ai-loading-overlay {
   position: fixed;
   inset: 0;
@@ -223,5 +235,3 @@ a {
     opacity: 1;
   }
 }
-
-/* CodeEditor 全屏样式 */
