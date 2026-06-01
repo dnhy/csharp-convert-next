@@ -5,9 +5,10 @@ import { createPortal } from "react-dom";
 import { Icon } from "@iconify/react";
 import CodeMirror from "@uiw/react-codemirror";
 import { csharp } from "@replit/codemirror-lang-csharp";
-import { EditorView } from "@codemirror/view";
+import { EditorView, keymap } from "@codemirror/view";
 import { StateEffect, StateField } from "@codemirror/state";
 import { Decoration, DecorationSet } from "@codemirror/view";
+import { search, searchKeymap } from "@codemirror/search";
 import { useIsDark } from "@/atoms/theme";
 
 export interface CodeEditorProps {
@@ -179,7 +180,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
             height={fullscreenEditorHeight}
             width="100%"
             theme={isDark ? "dark" : "light"}
-            extensions={[csharp(), highlightField, themeExtension]}
+            extensions={[csharp(), highlightField, themeExtension, search(), keymap.of(searchKeymap)]}
             onChange={(val) => {
               if (!readOnly && onChange) {
                 onChange(val);
@@ -219,7 +220,7 @@ export const CodeEditor: React.FC<CodeEditorProps> = ({
           height={normalEditorHeight}
           width="100%"
           theme={isDark ? "dark" : "light"}
-          extensions={[csharp(), highlightField, themeExtension]}
+          extensions={[csharp(), highlightField, themeExtension, search(), keymap.of(searchKeymap)]}
           onChange={(val) => {
             if (!readOnly && onChange) {
               onChange(val);
